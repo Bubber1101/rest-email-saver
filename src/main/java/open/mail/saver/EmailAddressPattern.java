@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 /** https://emailregex.com/ General Email Regex (RFC 5322 Official Standard) */
 @NoArgsConstructor
 public class EmailAddressPattern {
+
   static final String EMAIL_ADDRESS_REGEXP =
       "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]"
           + "+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~"
